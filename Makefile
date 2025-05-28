@@ -28,7 +28,7 @@ install: setup activate
 # Ejecutar el proyecto
 test: install
 	@echo "Ejecutando el modelo de optimización..."
-	@$(PYTHON_VENV) main_base.py
+	@$(PYTHON_VENV) main.py
 
 # Limpiar archivos generados
 clean:
